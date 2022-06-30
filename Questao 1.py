@@ -1,6 +1,6 @@
 import re # Aqui é importada a função re, que permite trabalhar com expressões regulares
 
-str = str(input(' bla')) #Aqui será digitada a string
+str = str(input('Digite algo: ')) #Aqui será digitada a string
 
 novastring = re.sub('[\s\d]', '' ,str) #A função re.sub irá substituir \s (espaços em branco) e \d (números) por '' (vazio)
 

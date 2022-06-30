@@ -10,4 +10,4 @@ nova = nova.replace('i', 'I') # Aqui acontece a mesma coisa
 nova = nova.replace('o', 'O') # Aqui acontece a mesma coisa
 nova = nova.replace('u', 'U') # Aqui acontece a mesma coisa
 
-print(nova)
+print(nova) # Aqui será impressa a nova string
